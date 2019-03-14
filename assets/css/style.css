@@ -1,0 +1,245 @@
+body {
+/*	background-image: url(../images/quiz-bg.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;*/
+}
+.header {
+	box-shadow: 0px 1px 5px grey;
+}
+.logo p {
+	margin: 0px;
+	padding: 0px;
+	padding-left: 100px;
+}
+.logo p img {
+	width: 240px;
+	margin: 15px 10px auto;
+}
+.social {
+	padding: 19px;
+}
+.social ul {
+	margin-top: 9px;
+	padding-right: 100px;
+	float: right;
+}
+.social i {
+	margin-right: 10px;
+	color: #005097;
+	font-size: 25px;
+}
+.social i:hover {
+	color: #f8c301;
+}
+.content {
+	background-image: url(images/6.jpg);
+	background-size: cover;
+}
+.q-option {
+	margin: 100px 150px 150px 150px;
+}
+.q-option tr {
+	border-bottom: 2px solid grey;
+}
+.q-option tr td {
+	border-right: 2px solid grey;
+	max-width: 120px;
+	padding: 15px;
+}
+.q-option tr td:nth-child(4) {
+	border-right: none;
+}
+.q-option tr:nth-last-child(1) {
+	border-bottom: none;
+}
+.icon {
+	text-align: center;
+}
+.icon i{
+	color: green;
+	font-size: 50px;
+}
+.icon img {
+	width: 50px;
+}
+.text p {
+	line-height: 20px;
+	text-align: center;
+}
+.text p a {
+	text-decoration: none;
+}
+.text p a:hover{
+	color: #f8c301;
+}
+
+.top-h1 {
+	font-family: serif;
+	font-weight: bold;
+}
+.quiz-btn {
+	padding: 15px;
+}
+.quiz-btn button {
+	padding: 10px 15px 10px 15px;
+	border: none;
+	border-radius: none;
+	background-color: #005097;
+}
+.next-btn {
+	margin: 0px 25px 25px 25px;
+}
+
+
+
+
+.question {
+
+}
+.question .qn {
+	padding: 20px;
+	font-weight: bold;
+	font-family: /*Abadi MT Condensed Extra Bold*/AlQalam Sadaf;
+	font-size: 70px;
+	color: black;
+}
+.question .q {
+	font-weight: normal;
+	font-family: Adobe Kaiti Std R;
+	font-size: 40px;
+	color: black;	
+}
+
+.quiz-questions {
+	margin: 50px 200px 50px 200px;
+}
+#analysis .thumbnail  {
+	margin: 20px;
+}
+/*result page*/
+.result .score {
+	border-radius: 5px;
+	text-align: center;
+	background-color: whitesmoke;
+	margin: 50px 150px 50px 150px;
+	padding: 15px;
+}
+.result .score p:nth-child(odd) {
+	font-size: 15px;
+	font-weight: bold;
+}
+.result .score p:nth-child(2) {
+	font-size: 40px;
+	font-family: stencil std;
+}
+.result .mytabs {
+	padding: 00px 150px 50px 150px;
+}
+
+.thumbnail  {
+	margin: 20px;
+}
+
+#result .thumbnail .profile img{
+	border: 2px solid grey;
+	border-radius: 5px;
+	margin: 20px;
+	width: 100px;
+}
+#result .thumbnail .name {	
+	padding-left: 0px;
+	margin-left: 0px;
+	font-family: times new roman;
+	font-size: 30px;
+	font-weight: bold;
+}
+.tab-content .thumbnail .table tr td {
+	border: none;
+}
+
+/* radio style */
+
+	.myform {
+		margin-top: -30px;
+		margin-left: 30px;
+	}
+	/* The container */
+	.container {
+	    display: block;
+	    position: relative;
+	    padding-left: 35px;
+	    margin-bottom: 12px;
+	    cursor: pointer;
+	    font-size: 22px;
+	    -webkit-user-select: none;
+	    -moz-user-select: none;
+	    -ms-user-select: none;
+	    user-select: none;
+	    font-weight: ;
+	    font-family: Adobe Kaiti Std R;
+	}
+
+	/* Hide the browser's default radio button */
+	.container input {
+	    position: absolute;
+	    opacity: 0;
+	    cursor: pointer;
+	}
+
+	/* Create a custom radio button */
+	.checkmark {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    height: 25px;
+	    width: 25px;
+	    background-color: #eee;
+	    border-radius: 50%;
+	}
+
+	/* On mouse-over, add a grey background color */
+	.container:hover input ~ .checkmark {
+	    background-color: #ccc;
+	}
+
+	/* When the radio button is checked, add a blue background */
+	.container input:checked ~ .checkmark {
+	    background-color: #2196F3;
+	}
+
+	/* Create the indicator (the dot/circle - hidden when not checked) */
+	.checkmark:after {
+	    content: "";
+	    position: absolute;
+	    display: none;
+	}
+
+	/* Show the indicator (dot/circle) when checked */
+	.container input:checked ~ .checkmark:after {
+	    display: block;
+	}
+
+	/* Style the indicator (dot/circle) */
+	.container .checkmark:after {
+	 	top: 9px;
+		left: 9px;
+		width: 8px;
+		height: 8px;
+		border-radius: 50%;
+		background: white;
+	}
+
+.quizs {
+	min-height: 100vh;
+}
+	
+	
+.footer {
+	margin-bottom: 0px;
+	width: 100%;
+	background-color: lightgrey;
+}
+.footer p {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}

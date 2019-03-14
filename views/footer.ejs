@@ -1,0 +1,30 @@
+<footer class="footer">
+    <div class="container-fluid">
+        <div class="row">
+            <p align="center">
+                © 2018 <a href="#" style="color:blue;">Online Quiz System</a> Developed and Designed By <a href="#"
+                    style="color:blue;">AAs<a>
+            </p>
+        </div>
+    </div>
+</footer>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/wow.min.js"></script>
+<script type="text/javascript">
+    /*animation script*/
+    wow = new WOW(
+        {
+            animateClass: 'animated',
+            offset: 100,
+            callback: function (box) {
+                console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+            }
+        }
+    );
+    wow.init();
+</script>
+</body>
+
+</html>
